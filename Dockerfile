@@ -70,7 +70,7 @@ FROM maven:3.8.4-eclipse-temurin-17 AS build
 # ENV PATH=$JAVA_HOME/bin:$PATH
 
 # # Download and extract Tomcat (correcting the download and extraction paths)
-# RUN wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.102/bin/apache-tomcat-9.0.102.tar.gz -O /tmp/tomcat.tar.gz && \
+# RUN wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.105/bin/apache-tomcat-9.0.105.tar.gz -O /tmp/tomcat.tar.gz && \
 #     mkdir /opt/tomcat && \
 #     tar xzvf /tmp/tomcat.tar.gz -C /opt/tomcat --strip-components=1 && \
 #     rm /tmp/tomcat.tar.gz
